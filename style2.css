@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    border: 0;
+    background-image: url(img/bg2.JPG);
+}
+.space-nav-bar{
+
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 1;
+    margin: 0px 0px 10px 0px;
+}
+
+.nav-text ul{
+    display: flex;
+
+    margin-right:75px;
+}
+.nav-text li{
+    list-style-type: none;
+    margin: 10px 30px;
+}
+.nav-text-header{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: white;
+    transition: 1s;
+}
+.nav-text-header:hover{
+    text-shadow: 0px 0px 5px white,
+                 0px 0px 10px white,
+                 0px 0px 20px white,
+                 0px 0px 40px white;
+                 letter-spacing: 1px;
+}
+
+.home{
+
+    width: 100%;
+    height: 100vh;
+    background-repeat: repeat;
+    margin-top: -10px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+.home-img{
+    height: 90%;
+    width: 90%;
+    margin: 30px 0px 20px 0px;
+}
+.home-text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 50px 10px;
+}
+.home-text1{
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 45%;
+}
+.home-text2{
+    margin-top:-400px ;
+    margin-left: 50px;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.about-us-img{
+    margin: 10px 20px;
+}
+.about-us-text{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px 0px;
+}
+.about-us-holder{
+    border: 3px solid White;
+    padding: 30px 30px;
+    border-radius: 20px ;
+    display: flex;
+    
+}
+.our-mis{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0px;
+}
+.our-mis{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content:space-between;
+    background-image: url(img/bg2.JPG);
+}
+.our-mis-card{
+    height: 300px;
+    width: 275px;
+    border: 1px solid white;
+    border-radius: 30px;
+    justify-content: center;
+    margin: 20px 100px;
+    color: white;
+}
+.our-mis-card h1{
+    text-align: center;
+}
+.our-mis-img1{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px;
+}
+.our-mis-img2{
+    height: 120px;
+    width: 160px;
+    margin: 10px 10px;
+}
+.our-mis-img3{
+    height: 150px;
+    width: 210px;
+    margin: 10px 10px;
+}
+.our-mis-card-cont{
+    display: flex;
+    justify-content: center;
+}
+.ourmi{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: White;
+    margin: 0;
+    padding: 20px 0px;
+    background-image: url(img/bg2.JPG);
+}
+@media all and (max-width:779px){
+    .logo{
+        margin-left: 50px;
+        margin-bottom: 25px;
+    }
+    .space-nav-bar{
+        display: block;
+    }
+    .nav-text ul{
+     display: block;
+    }
+    .nav-text li{
+        margin: 20px 10px;
+    }
+    .nav-text-header{
+        font-size: 20px;
+    }
+    .home-img{
+        height: 60%;
+        width: 70%;
+    }
+    .home-text1{
+        margin-top: -150px;
+        margin-left: 35%;
+    }
+    .home-text2{
+        margin-top: -90px;
+    }
+    .about-us-holder{
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 10px;
+
+    }
+    .about-us-img{
+        display: flex;
+        justify-content: center;
+    }
+    .about-us-text h1 , .about-us-text h2{
+        text-align: center;
+    }
+    .our-mis{
+        flex-direction: column;
+
+        justify-content: center;
+    }
+    .our-mis-cont{
+        display: flex;
+        justify-content: center;
+    }
+}
+.footer{
+    background-image: url(img/bg2.JPG);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-text{
+    color: white;
+    padding: 20px 30px;
+    margin: 0;
+    text-align: center;
+    background-color: #010e4d;
+    width: 90%;
+    height: 90;
+    opacity: 0.9;
+}
